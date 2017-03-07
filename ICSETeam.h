@@ -21,7 +21,6 @@ public:
 	int getnoofadmin();
 	ICSETeam();
 	void setteamname(char*);
-	//ICSETeam& operator=(ICSETeam& std);
 	char* getteamname();
 	void setteamleader(char*, char*, int, char*, int, char*, int);
 	void addacademicmember(academicMember*);
