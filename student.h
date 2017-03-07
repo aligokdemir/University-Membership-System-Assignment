@@ -9,7 +9,6 @@ private:
 public:
 	studentMember();
 	studentMember(char*, char*, int, char*, int, int, int);
-	//studentMember& operator = (const studentMember& std);
 	void setstudentID(int);
 	void setMemberType(int);
 	void setcompNumber(int);
