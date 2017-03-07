@@ -11,7 +11,6 @@ public:
 	academicMember();
 	academicMember(char*, char*, int, char*, int, char*, int);
 	~academicMember();
-	//academicMember& operator = (const academicMember&);
 	void setemployeeID(int);
 	void settitle(char*);
 	void setdate(int);
