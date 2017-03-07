@@ -10,7 +10,6 @@ public:
 	Member();
 	Member(char*, char*, int, char*);
 	~Member();
-	//Member(const Member &obj);
 	Member& operator=(const Member& std);
 	void setname(char*);
 	void setlastname(char*);
